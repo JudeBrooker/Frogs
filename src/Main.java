@@ -13,5 +13,16 @@ public class Main {
         System.out.println("Age: " + frog2.getAge());
         frog2.setColour("Pink");
         System.out.println("Colour: " + frog2.getColour());
+
+        Frog frog3 = new Frog("blue", 2, "Richard", 5);
+        System.out.println(frog3.getName());
+        frog3.setPosition(3);
+        System.out.println(frog3.getPosition());
+
+        frog1.left();
+        frog2.right();
+        frog3.right();
+        System.out.println(frog3.getPosition());
+
     }
 }

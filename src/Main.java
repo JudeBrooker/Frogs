@@ -24,5 +24,9 @@ public class Main {
         frog3.right();
         System.out.println(frog3.getPosition());
 
+        Cat cat1 = new Cat("Chloe", 3, "Female", "British Shorthair");
+        cat1.setAge(4);
+        System.out.println("Age: " + cat1.getAge());
+        System.out.println("Breed: " + cat1.getBreed());
     }
 }

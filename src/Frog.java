@@ -3,11 +3,16 @@ public class Frog {
     private int position;
     private String name;
     private int age;
+    private static int count;
     public Frog(String colour, int position, String name, int age){
         this.colour = colour;
         this.position = position;
         this.name = name;
         this.age = age;
+        count++;
+    }
+    public static int getCount(){
+        return count;
     }
     public void right(){
         if(this.position>5){

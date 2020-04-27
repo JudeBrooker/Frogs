@@ -23,6 +23,7 @@ public class Main {
         frog2.right();
         frog3.right();
         System.out.println(frog3.getPosition());
+        System.out.println("Frog count: " + Frog.getCount());
 
         Cat cat1 = new Cat("Chloe", 3, "Female", "British Shorthair");
         cat1.setAge(4);
